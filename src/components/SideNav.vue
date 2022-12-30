@@ -1,6 +1,6 @@
 <template>
   <div class="sidebar p-4 ">
-    <a class="navbar-brand mb-5" href="/"><img src="../assets/Logo (2).svg" alt=""></a>
+    <a class="navbar-brand mb-5" href="/"><img :src="require('assets/Logo.svg')" alt=""></a>
     <ul class="list-unstyled d-grid gap-4  " >
         <li><a href="">Dashboard</a></li>
         <li><a href="">Image Upload</a></li>

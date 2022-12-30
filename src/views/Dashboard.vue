@@ -11,7 +11,7 @@
            
              </form>
              <div class="user-image d-flex">
-               <img class="rounded-circle m-2" src="../assets/Screenshot (6).png" alt="">
+               <img class="rounded-circle m-2" :src="require('assets/Screenshot.png')" alt="">
                <div class="profile-name"><h6>Ayodeji Ajani</h6>
                    <small>Admin ID no.1234</small></div>
                
