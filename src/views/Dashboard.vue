@@ -11,7 +11,7 @@
            
              </form>
              <div class="user-image d-flex">
-               <img class="rounded-circle m-2" :src="require('assets/Screenshot.png')" alt="">
+               <img class="rounded-circle m-2" :src="Screenshot" alt="">
                <div class="profile-name"><h6>Ayodeji Ajani</h6>
                    <small>Admin ID no.1234</small></div>
                
@@ -73,9 +73,16 @@
 
 <script>
 import SideNavVue from '../components/SideNav.vue';
+import Screenshot from '../assets/Screenshot.png'
     export default {
+      data(){
+        return {
+          Screenshot:Screenshot
+        }
+      },
         components :{
             SideNavVue
+            
         }
     }
 </script>
